@@ -1,0 +1,16 @@
+# Only explicitly selected presentation materials belong in this repository.
+*
+!.gitignore
+!README.md
+!NOTICE.md
+!docs/
+!docs/**
+
+# Exclude sensitive/runtime files even beneath the documentation directory.
+**/.env*
+**/*.pem
+**/*.key
+**/node_modules/
+**/.DS_Store
+**/*.log
+**/*.sqlite*
